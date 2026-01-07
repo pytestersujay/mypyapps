@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="8" time="0.082" timestamp="2026-01-03T15:28:35.256328+05:30" hostname="SujayShetty"><testcase classname="SamplePackage.test_SampleFile" name="test_SampleAssert1" time="0.001" /><testcase classname="SamplePackage.test_SampleFile" name="test_SampleAssert2" time="0.001"><failure message="assert False">def test_SampleAssert2():
+            assert 10 &gt; 2  # Comparison
+            # assert "i" in "pytest","not correct"  # Membership
+            assert [1, 2] != [1, 3]  # Inequality
+&gt;           assert False
+E           assert False
+
+SamplePackage\test_SampleFile.py:17: AssertionError</failure></testcase><testcase classname="SamplePackage.test_SampleFileTwo" name="test_Sample_one" time="0.001" /><testcase classname="SamplePackage.test_SampleFileTwo" name="test_Sample_Two" time="0.000" /><testcase classname="SamplePackage2.test_SamplePackageThree" name="test_Sample_one" time="0.001" /><testcase classname="SamplePackage2.test_SamplePackageThree" name="test_Sample_Two" time="0.000" /><testcase classname="SamplePackage2.test_SamplePackageThree" name="test_Sample_Three" time="0.000" /><testcase classname="SamplePackage2.test_SamplePackageThree" name="test_Sample_Four" time="0.000" /></testsuite></testsuites>
